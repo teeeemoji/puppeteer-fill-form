@@ -1,0 +1,16 @@
+{
+  "name": "puppeteer-fill-form-helper",
+  "version": "1.0.8",
+  "description": "utils for `puppeteer-fill-form`",
+  "author": "zhangtingcen <teeeemoji@163.com>",
+  "homepage": "https://github.com/teeeemoji/puppeteer-fill-form/tree/master/packages/puppeteer-fill-form-helper#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "babel-core": "7.0.0-bridge.0",
+    "jest": "^24.9.0",
+    "url-parse": "^1.4.7"
+  },
+  "gitHead": "01b045c8025ce8680f15f78ac6745b7e321dfc9e"
+}

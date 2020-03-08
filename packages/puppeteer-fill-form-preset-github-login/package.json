@@ -1,0 +1,16 @@
+{
+  "name": "puppeteer-fill-form-preset-baidu-search",
+  "version": "1.0.8",
+  "description": "`puppeteer-fill-form` 的一个预设, 用于抓取 baidu 新闻第一页搜索结果的标题",
+  "author": "zhangtingcen <teeeemoji@163.com>",
+  "homepage": "https://github.com/teeeemoji/puppeteer-fill-form/tree/master/packages/puppeteer-fill-form-preset-baidu-search#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "puppeteer-fill-form-helper": "^1.0.8",
+    "babel-core": "7.0.0-bridge.0",
+    "jest": "^24.9.0"
+  },
+  "gitHead": "01b045c8025ce8680f15f78ac6745b7e321dfc9e"
+}

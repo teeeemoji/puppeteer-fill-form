@@ -1,0 +1,51 @@
+{
+  "name": "puppeteer-fill-form",
+  "version": "1.0.8",
+  "description": "use-puppeteer-to-fill-form-in-page",
+  "main": "./index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm test",
+    "test": "jest",
+    "commit": "git-cz",
+    "cs": "eslint --fix .",
+    "doc": "documentation --github --markdown-toc=false readme ./src/index.js -a public -s \"API\" && git add README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teeeemoji/puppeteer-fill-form.git"
+  },
+  "keywords": [],
+  "author": "teeeemoji <teeeemoji@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teeeemoji/puppeteer-fill-form/issues"
+  },
+  "homepage": "https://github.com/teeeemoji/puppeteer-fill-form#readme",
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "./src/**/*.{js,jsx}"
+    ],
+    "transform": {
+      ".*\\.(js)$": "babel-jest"
+    },
+    "coverageDirectory": "coverage",
+    "testMatch": [
+      "**/__test{s,}__/*.(spec|test).js"
+    ]
+  },
+  "dependencies": {
+    "puppeteer-fill-form-helper": "^1.0.8",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^24.9.0",
+    "debug": "^4.1.1",
+    "documentation": "^12.1.4",
+    "jest": "^24.9.0",
+    "puppeteer": "^2.0.0"
+  },
+  "devDependencies": {
+    "puppeteer-fill-form-preset-baidu-search": "^1.0.8"
+  },
+  "gitHead": "01b045c8025ce8680f15f78ac6745b7e321dfc9e"
+}
